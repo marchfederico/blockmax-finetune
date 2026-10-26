@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+models/
+pylib_fo/
+pylib_lomo/
+rsi/results/*.out
+rsi/data/exp83/lcb_test.jsonl
