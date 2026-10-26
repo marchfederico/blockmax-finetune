@@ -100,3 +100,8 @@ for i, batch in enumerate(data):                      # one example per update
 ```
 
 Tune the learning rate for each model: the best rate differed by about 20 times between Qwen and SmolLM2.
+
+## License
+
+MIT License (see `LICENSE`). `strange/fused/adalomo_ref.py` is derived from lomo-optim (MIT License, Copyright (c) 2023
+OpenLMLab); its notice is kept in the file.

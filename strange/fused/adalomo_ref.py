@@ -1,3 +1,15 @@
+# Derived from lomo_optim/adalomo.py (lomo-optim 0.1.1), which is under the MIT License:
+#   Copyright (c) 2023 OpenLMLab
+#   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+#   documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+#   rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+#   persons to whom the Software is furnished to do so, subject to the following conditions:
+#   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+#   Software.
+#   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+#   WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+#   COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+#   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 # BASELINE: AdaLomo (Lv et al. 2023, "AdaLomo: Low-memory Optimization with Adaptive Learning Rate"), the non-ZeRO path of
 # lomo_optim 0.1.1 (pip lomo-optim, lomo_optim/adalomo.py) copied unchanged except for one switch:
 #   SR = False  the weight is written back to bf16 by round-to-nearest, as in the package (p.data.copy_)
