@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "blockmax-finetune"
+authors:
+  - family-names: Federico
+    given-names: Marcello
+repository-code: "https://github.com/marchfederico/blockmax-finetune"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Stochastic Rounding, Not Momentum: Full Fine-Tuning at 2.25 Bytes per Parameter"
+  authors:
+    - family-names: Federico
+      given-names: Marcello
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.23679887"
+  url: "https://doi.org/10.5281/zenodo.23679887"
